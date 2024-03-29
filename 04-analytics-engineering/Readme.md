@@ -39,4 +39,11 @@ The code to geenrate a schema: remove prefix if you want to generate for the who
 ) }}
 
 'dbt docs generate' helps generate documentation for your project.
-and you can view docs by the booklike icon close to your git branch name on the top left 
+and you can view docs by the booklike icon close to your git branch name on the top left.
+
+To deploy to production, click on deploy then environments,
+Create Envronment. Fill the form that creates environments
+Environment name
+dataset are the two important fields to fill.
+
+In the production environment, create a deploy job
